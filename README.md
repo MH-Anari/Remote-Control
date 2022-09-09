@@ -1,4 +1,4 @@
-# Remote-Control
+# RemoteControl
 Control your computer remotely
 
 
