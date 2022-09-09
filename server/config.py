@@ -4,7 +4,7 @@ password = ''
 local_ip = ''
 port = ''
 
-# configure settings, password, ...
+# configure password and local port
 def config():
     global password, local_ip, port
     config_file = open('config.txt', 'r')
@@ -15,10 +15,6 @@ def config():
         # config password
         if conf[0][0] == 'password':
             password = conf[0][1]
-
-        # config ip
-        if conf[0][0] == 'ip':
-            local_ip = conf[0][1]
 
         # config port
         if conf[0][0] == 'port':

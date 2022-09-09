@@ -3,10 +3,9 @@ import subprocess
 import config
 import shlex
 
-# subprocess.call(['cls'], shell=True) # clear terminal
 app = Flask(__name__) # init flask app
 
-# handle not valid url
+# handle not valid requests
 @app.errorhandler(404)
 def page_not_found(error):
     return '<h1>Error 404. Command not found!</h1>', 404
@@ -31,10 +30,11 @@ def ssh_availibility():
     return False
 
 if __name__ == '__main__':
-    config.config() # configure local_ip, local_port, password
+    # configure local_port and password
+    config.config()
     if ssh_availibility() == True:
-        command = f'ssh -R 80:{config.local_ip}:{config.port} nokey@localhost.run'
+        command = f'ssh -R 80:127.0.0.1:{config.port} nokey@localhost.run'
         subprocess.Popen(shlex.split(command), creationflags=subprocess.CREATE_NEW_CONSOLE)
-        app.run(config.local_ip, int(config.port))
+        app.run('127.0.0.1', int(config.port))
     else:
         print('ssh is not available')
