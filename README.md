@@ -25,7 +25,7 @@ python client.py
 4. Run client.py.
 5. Enter your url and password.
 
-## Usefull for
+## Useful for
 1. System/Network Adminatrators
 2. CE/CS Students
 3. Data Scientists
