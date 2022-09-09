@@ -18,7 +18,7 @@ python client.py
 ```
 
 ## Steps
-1. Run server.py on your target computer.
+1. Run server.py on your remote computer.
 2. Set local port and remote password.
 3. Copy url from server.py output.
 4. Run client.py.
