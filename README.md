@@ -1,8 +1,6 @@
 # Remote-Control
-### Control your computer remotely
-
-
-
+Control your computer remotely
+<br><br>
 ## Install server
 ```
 git clone https://github.com/MH-Anari/Remote-Control.git
