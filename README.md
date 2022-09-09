@@ -25,7 +25,7 @@ python client.py
 6. Enter your commands...
 
 ## Useful for
-1. System/Network Adminatrators
+1. System/Network Adminstrators
 2. CE/CS Students
 3. Data Scientists
 4. AI Researchers
