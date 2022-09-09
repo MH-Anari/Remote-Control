@@ -4,7 +4,7 @@ Control your computer remotely
 
 ## Install server
 ```
-git clone https://github.com/MH-Anari/remote-control.git
+git clone https://github.com/MH-Anari/Remote-Control.git
 cd remote-control/server
 pip install -r requirments
 python server.py
@@ -12,7 +12,7 @@ python server.py
 
 ## Install client
 ```
-git clone https://github.com/MH-Anari/remote-control.git
+git clone https://github.com/MH-Anari/Remote-Control.git
 cd remote-control/client
 python client.py
 ```
