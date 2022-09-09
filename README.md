@@ -22,6 +22,7 @@ python client.py
 3. Copy url from server.py output.
 4. Run client.py.
 5. Enter your url and password.
+6. Enter your commands...
 
 ## Useful for
 1. System/Network Adminatrators
