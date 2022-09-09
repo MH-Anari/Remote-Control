@@ -2,6 +2,7 @@
 Control your computer remotely
 
 
+
 ## Install server
 ```
 git clone https://github.com/MH-Anari/Remote-Control.git
@@ -23,3 +24,10 @@ python client.py
 3. Copy url from server.py output.
 4. Run client.py.
 5. Enter your url and password.
+
+## Usefull for
+1. System/Network Adminatrators
+2. CE/CS Students
+3. Data Scientists
+4. AI Researchers
+5. 5. ...
