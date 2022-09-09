@@ -33,5 +33,5 @@ python client.py
 5. etc
 
 ## Contact me
-. Instagram : https://instagram.com/mh_anari
-. Whatsapp : +989162867335
+- Instagram : https://instagram.com/mh_anari
+- Whatsapp : +989162867335
