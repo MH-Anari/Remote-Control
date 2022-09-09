@@ -1,2 +1,4 @@
-# remote-server
+# Remote-Control
 Control your computer remotely
+
+##Install
