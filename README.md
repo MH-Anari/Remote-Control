@@ -30,7 +30,3 @@ python client.py
 3. Data Scientists
 4. AI Researchers
 5. etc
-
-## Contact me
-- Instagram : https://instagram.com/mh_anari
-- Whatsapp : +989162867335
